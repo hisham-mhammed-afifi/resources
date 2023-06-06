@@ -14,6 +14,9 @@
   </head>
   <body>
     <div class="container my-5">
+      <a href="./index.html" class="btn btn-outline-secondary px-2 my-3"
+        >Back to resources</a
+      >
       <h3 class="mb-3">NodeJs in 100 days</h3>
       <p>Day 1-2: Introduction to Node.js and JavaScript</p>
       <ol>
@@ -201,5 +204,19 @@
         <script src="https://gist.github.com/hisham-mhammed-afifi/520d226a7a31bdca57194fc3d983a3ad.js"></script>
       </div>
     </div>
+
+    <button
+      class="btn btn-link fs-3 position-fixed bottom-0 end-0 m-3"
+      onclick="scrollToTop()"
+    >
+      &uarr;
+    </button>
+
+    <script>
+      function scrollToTop() {
+        document.body.scrollBy({ behavior: "smooth", left: 0, top: 0 });
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>

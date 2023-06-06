@@ -12998,9 +12998,10 @@ legend {
 
 /* custom */
 
-a {
-  text-decoration: none;
-  color: inherit;
+a,
+.btn-link {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 .gist .gist-data .p-5 {
